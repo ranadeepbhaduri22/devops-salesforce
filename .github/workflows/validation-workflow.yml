@@ -33,7 +33,7 @@ jobs:
 
     #passing the docker hub creds to load the dependencies
     container:
-      image: code4kiran/cicdpoc-sfdx-cli
+      image: ranadeepbhaduri22/devops
       credentials:
         username: ${{ secrets.DOCKER_HUB_UN }}
         password: ${{ secrets.DOCKER_HUB_PASS }}
